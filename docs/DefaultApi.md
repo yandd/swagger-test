@@ -1,11 +1,13 @@
-# \DefaultApi
+# contract_center api
 
-All URIs are relative to *https://testplatform.smm.cn/contractcenter*
+## 目录
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**1.1 开通电子签章服务**](DefaultApi.md#CompanyTsignCreatePost) | **Post** /contractcenter/company/tsign_create | 
 
+
+## API
 
 ### <a id="CompanyTsignCreatePost">1.1 开通电子签章服务</a>
 
@@ -17,8 +19,8 @@ Method | HTTP request | Description
 
 Name|Type|Must|Position|Description
 ----|----|----|--------|--------
- **authToken** | **string**| 是 | formData | token, 
- **mobile** | **string**| 是 | formData | 预留号码, 
+ **authToken** | **string**| 是 | formData | token
+ **mobile** | **string**| 是 | formData | 预留号码
 
 #### Response
 ```json
