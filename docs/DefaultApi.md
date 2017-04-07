@@ -17,7 +17,7 @@ Method | HTTP request | Description
 #### Request
 
 ```http
-**Post** /contractcenter/company/tsign_create1
+Post /contractcenter/company/tsign_create1
 ```
 
 #### Parameters
@@ -44,7 +44,7 @@ Name|Type|Must|Position|Description
 #### Request
 
 ```http
-**Post** /contractcenter/company/tsign_create2
+Post /contractcenter/company/tsign_create2
 ```
 
 #### Parameters
@@ -71,7 +71,7 @@ Name|Type|Must|Position|Description
 #### Request
 
 ```http
-**Post** /contractcenter/company/tsign_create3
+Post /contractcenter/company/tsign_create3
 ```
 
 #### Parameters
@@ -98,7 +98,7 @@ Name|Type|Must|Position|Description
 #### Request
 
 ```http
-**Post** /contractcenter/company/tsign_create
+Post /contractcenter/company/tsign_create
 ```
 
 #### Parameters
