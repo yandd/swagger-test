@@ -2,9 +2,9 @@
 
 All URIs are relative to *https://testplatform.smm.cn/contractcenter*
 
-Notes | Method | HTTP request | Description
------- | ------- | ------------- | -------------
-1.1 开通电子签章服务|[**CompanyTsignCreatePost**](DefaultApi.md#CompanyTsignCreatePost) | **Post** /contractcenter/company/tsign_create | 
+Method | HTTP request | Description
+------------- | ------------- | -------------
+[**1.1 开通电子签章服务**](DefaultApi.md#CompanyTsignCreatePost) | **Post** /contractcenter/company/tsign_create | 
 
 
 ### <a id="CompanyTsignCreatePost">1.1 开通电子签章服务</a>
