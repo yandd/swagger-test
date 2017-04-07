@@ -16,7 +16,9 @@ Method | HTTP request | Description
 
 #### Request
 
-> **Post** /contractcenter/company/tsign_create1
+```http
+**Post** /contractcenter/company/tsign_create1
+```
 
 #### Parameters
 
@@ -41,7 +43,9 @@ Name|Type|Must|Position|Description
 
 #### Request
 
-> **Post** /contractcenter/company/tsign_create2
+```http
+**Post** /contractcenter/company/tsign_create2
+```
 
 #### Parameters
 
@@ -66,7 +70,9 @@ Name|Type|Must|Position|Description
 
 #### Request
 
-> **Post** /contractcenter/company/tsign_create3
+```http
+**Post** /contractcenter/company/tsign_create3
+```
 
 #### Parameters
 
@@ -91,7 +97,9 @@ Name|Type|Must|Position|Description
 
 #### Request
 
-> **Post** /contractcenter/company/tsign_create
+```http
+**Post** /contractcenter/company/tsign_create
+```
 
 #### Parameters
 
