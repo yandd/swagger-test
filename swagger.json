@@ -1,0 +1,79 @@
+{
+  "basePath": "/contractcenter",
+  "definitions": {
+    "CompanyTsignCreateResp": {
+      "properties": {
+        "code": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "data": {
+          "properties": {
+            "account_id": {
+              "description": "e签宝account_id",
+              "type": "string"
+            },
+            "mobile": {
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "msg": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    }
+  },
+  "host": "testplatform.smm.cn",
+  "info": {
+    "title": "contract_center api",
+    "version": "1.0.1"
+  },
+  "paths": {
+    "/company/tsign_create/{user-id}": {
+      "post": {
+        "description": "1.1 开通电子签章服务",
+        "parameters": [
+          {
+            "description": "token",
+            "in": "path",
+            "name": "user-id",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "description": "token",
+            "in": "formData",
+            "name": "auth_token",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "description": "预留号码",
+            "in": "formData",
+            "name": "mobile",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "结果",
+            "schema": {
+              "$ref": "#/definitions/CompanyTsignCreateResp"
+            }
+          }
+        }
+      }
+    }
+  },
+  "produces": [
+    "application/json"
+  ],
+  "schemes": [
+    "https"
+  ],
+  "swagger": "2.0"
+}
